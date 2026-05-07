@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.theme-transition * {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    fill 0.3s ease,
+    stroke 0.3s ease;
+}
+
+/* Tema claro (padrão) */
+@theme {
+  --color-bg-one: oklch(1 0 0);
+  --color-bg-two: oklch(0.97 0.01 255);
+
+  --color-title: oklch(0.35 0 0);
+  --color-primary: oklch(0.55 0.18 260);
+  --color-text: oklch(0.55 0 0);
+}
+
+/* Tema escuro */
+.dark {
+  --color-bg-one: oklch(0.15 0.02 260);
+  --color-bg-two: oklch(0.22 0.02 260);
+
+  --color-title: oklch(0.92 0 0);
+  --color-primary: oklch(0.7 0.16 260);
+  --color-text: oklch(0.75 0 0);
+}

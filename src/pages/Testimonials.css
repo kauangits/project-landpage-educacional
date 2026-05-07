@@ -1,0 +1,4 @@
+.testimonials-swiper .swiper-pagination {
+  position: relative; /* tira o absolute padrão */
+  margin-top: 24px; /* empurra pra baixo */
+}
