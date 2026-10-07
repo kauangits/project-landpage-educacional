@@ -1,16 +1,18 @@
-# Nome do Projeto
+# Landing Page Educacional
 
-Projeto desenvolvido com React + Vite.
+Landing page desenvolvida com React e Vite, com foco em uma interface moderna, responsiva e interativa.
 
-## Tecnologias
+## 🚀 Projeto publicado
+
+Acesse a aplicação:
+
+👉 [Landing Page Educacional](https://project-landpage-educacional.vercel.app/)
+
+## 🛠️ Tecnologias
 
 - React
 - Vite
 - JavaScript
-- Tailwind
-- Framer motion
+- Tailwind CSS
+- Framer Motion
 
-## Como rodar
-
-npm install
-npm run dev
